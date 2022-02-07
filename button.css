@@ -1,0 +1,88 @@
+:root {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+.button-container {
+  padding: 1rem 2rem;
+  margin: 1rem;
+  /* margin-left:-0.3rem; */
+  display: inline-block;
+  font-weight: 800;
+  font-size: 1.8rem;
+  border: none;
+  border-radius: 1rem 1rem 1rem 1rem;
+
+  color: black;
+  font-family: "roboto";
+}
+.primary-button {
+  background-color: #49a0eb;
+}
+.secondary-button {
+  background-color: #63edff;
+  color: black;
+  font-family: "roboto";
+}
+.danger-button {
+  background-color: red;
+  color: white;
+  font-family: "roboto";
+}
+.toggle-button {
+  position: relative;
+
+  width: 16rem;
+  height: 5rem;
+  border: none;
+
+  background-color: #63edff;
+  color: black;
+  font-family: "roboto";
+}
+.icon-badge-number {
+  position: absolute;
+  top: 0;
+  right: -2.1rem;
+  width: 2.2rem;
+  height: 2.2rem;
+  background: #209bab;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.toggle-badge {
+  width: 16rem;
+  height: 5rem;
+  position: relative;
+}
+.hide {
+  display: none;
+}
+.floating-action-button {
+  margin-top: 2rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: none;
+  background-color: #49a0eb;
+  z-index: 1;
+}
+.floating-action-button-small {
+  margin-top: 2rem;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  border: none;
+  background-color: #49a0eb;
+}
+.floating-action-button:hover,
+.floating-action-button-small:hover {
+  background-color: #63edff;
+}
+.floating-action-img {
+  width: 100%;
+  object-fit: contain;
+  align-items: center;
+}

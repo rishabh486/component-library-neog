@@ -6,9 +6,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./snackbar.css" />
 </head>
 
 <body>
+    <div class="snackbar">
+
+        <button class="snackbar-button button-container" onclick="showSnackbar()">
+            Stacked snackbar
+        </button>
+
+        <div id="snackbar-message">
+            <p>Stacked Snackbar</p>
+            <button class="snack-exit" onclick="hideSnackbar()">
+                <span>&#10060;</span>
+            </button>
+        </div>
+
+    </div>
+
+    <div class="snackbar">
+
+        <button class="snackbar-button button-container" onclick="showSnackbarLeft()">
+            Left snackbar
+        </button>
+
+        <div id="snackbar-message-left">
+            <p>Left Snackbar</p>
+            <button class="snack-exit" onclick="hideSnackbarLeft()">
+                <span>&#10060;</span>
+            </button>
+        </div>
+
+    </div>
+
+    <div class="snackbar">
+
+        <button class="snackbar-button button-container" onclick="showSnackbarCenter()">
+            Centered snackbar
+        </button>
+
+        <div id="snackbar-message-center">
+            <p>Centered Snackbar</p>
+            <button class="snack-exit" onclick="hideSnackbarCenter()">
+                <span>&#10060;</span>
+            </button>
+        </div>
+
+    </div>
+
+    <script src="snackbar.js"></script>
 
 </body>
 

@@ -1,0 +1,28 @@
+:root {
+  font-size: 62.5%;
+}
+.alert {
+  width: 30rem;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.3rem;
+  align-items: center;
+  margin: 0.5rem;
+
+  background-color: #209bab;
+}
+.alert img {
+  width: 2.5rem;
+  padding: 0.5rem;
+  color: pink;
+}
+.alert-msg {
+  font-size: 2rem;
+}
+.success-info {
+  background-color: green;
+}
+.warning-info {
+  background-color: yellow;
+}

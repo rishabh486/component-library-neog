@@ -1,0 +1,35 @@
+:root {
+  font-size: 62.5%;
+}
+#user-input {
+  padding: 0.5rem;
+  margin: 1rem;
+  width: 20rem;
+  height: 2.5rem;
+}
+#user-choice-radio {
+  padding: 0.5rem;
+  margin: 1rem;
+}
+#user-choice-check {
+  padding: 0.5rem;
+  margin: 1rem;
+}
+.input-label {
+  font-size: 2rem;
+  margin: 1rem;
+  padding: 0.5rem;
+}
+.user-radio {
+  font-size: 2rem;
+  margin: 1rem;
+  padding: 0.5rem;
+}
+.user-checkbox {
+  font-size: 2rem;
+  margin: 1rem;
+  padding: 0.5rem;
+}
+.user-input-warning {
+  border: 0.1rem solid red;
+}

@@ -639,3 +639,38 @@
   align-items: center;
   border-radius: 50%;
 }
+
+/* badge */
+.notification {
+  position: relative;
+  width: 5rem;
+  height: 5rem;
+}
+.icon-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  color: #333333;
+  background: lavenderblush;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+}
+.icon-img {
+  width: 100%;
+}
+.icon-badge-number {
+  position: absolute;
+  top: 0;
+  right: 0rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: lightblue;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <div class="display-sidebar">
+        <div class="side-bar">
+            <div class="side-bar-heading">
+                <div>
+                    <h1>Filter</h1>
+                </div>
+                <div>
+                    <h1>Clear</h1>
+                </div>
+            </div>
+            <div class="price-heading">
+                <h2>Price</h2>
+                <div class="price-container">
+
+                    <input type="range" name="user-choice-range" id="user-choice-range" min="0" max="100" value="30">
+                    <option value="0" label="0%"></option>
+                </div>
+            </div>
+            <div class="category-heading">
+                <div>
+                    <h2>Category</h2>
+                </div>
+                <div class="category-container">
+                    <label for="user-choice-check">Men's Clothing</label>
+                    <input type="checkbox" name="user-choice-check" id="user-choice-check">
+                </div>
+                <div class="category-container">
+                    <label for="user-choice-check">Women Clothing</label>
+                    <input type="checkbox" name="user-choice-check" id="user-choice-check">
+                </div>
+                <div class="category-container">
+                    <label for="user-choice-check">Kids Clothing</label>
+                    <input type="checkbox" name="user-choice-check" id="user-choice-check">
+                </div>
+                <div class="category-container">
+                    <label for="user-choice-check">Newborn Clothing</label>
+                    <input type="checkbox" name="user-choice-check" id="user-choice-check">
+                </div>
+
+            </div>
+            <div class="rating-heading">
+                <div>
+                    <h2>Rating</h2>
+                </div>
+                <div class="rating-container">
+                    <label for="user-choice-radio">4stars & above</label>
+                    <input type="radio" name="user-choice-radio" id="user-choice-radio">
+                </div>
+                <div class="rating-container">
+                    <label for="user-choice-radio">3stars & above</label>
+
+                    <input type="radio" name="user-choice-radio" id="user-choice-radio">
+                </div>
+                <div class="rating-container">
+                    <label for="user-choice-radio">2stars & above</label>
+                    <input type="radio" name="user-choice-radio" id="user-choice-radio">
+                </div>
+                <div class="rating-container">
+                    <label for="user-choice-radio">1stars & above</label>
+
+                    <input type="radio" name="user-choice-radio" id="user-choice-radio">
+                </div>
+            </div>
+            <div class="sort-by-heading">
+                <div>
+                    <h2>Sort-by</h2>
+                </div>
+                <div class="sort-by-container">
+                    <label for="user-choice-radio">Price-Low to High</label>
+                    <input type="radio" name="user-choice-radio" id="user-choice-radio">
+                </div>
+                <div class="sort-by-container">
+                    <label for="user-choice-radio">Price-High to low</label>
+
+                    <input type="radio" name="user-choice-radio" id="user-choice-radio">
+                </div>
+            </div>
+        </div>
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%2870%2C74%2C78%2C1%29&t=one-dark&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522side-bar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522side-bar-heading%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%253EFilter%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%253EClear%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-heading%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253EPrice%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-container%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522range%2522%2520name%253D%2522user-choice-range%2522%2520id%253D%2522user-choice-range%2522%2520min%253D%25220%2522%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520max%253D%2522100%2522%2520value%253D%252230%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%25220%2522%2520label%253D%25220%2525%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522category-heading%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253ECategory%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522category-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522user-choice-check%2522%253EMen%27s%2520Clothing%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520name%253D%2522user-choice-check%2522%2520id%253D%2522user-choice-check%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522category-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522user-choice-check%2522%253EWomen%2520Clothing%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520name%253D%2522user-choice-check%2522%2520id%253D%2522user-choice-check%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522category-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522user-choice-check%2522%253EKids%2520Clothing%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520name%253D%2522user-choice-check%2522%2520id%253D%2522user-choice-check%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522category-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522user-choice-check%2522%253ENewborn%2520Clothing%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520name%253D%2522user-choice-check%2522%2520id%253D%2522user-choice-check%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating-heading%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253ERating%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522user-choice-radio%2522%253E4stars%2520%2526%2520above%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D"
+            style="width: 600px; height: 700px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+    </div>
+</body>
+
+</html>

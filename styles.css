@@ -1,3 +1,8 @@
 .display-layout {
   display: grid;
 }
+
+.display-sidebar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

@@ -494,3 +494,148 @@
     height: 10rem;
   }
 }
+
+/* avatar */
+.avatar {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.avatar-parent {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.avatar-parent img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.avatar-small {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.avatar-small img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+.avatar-extra-small {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.avatar-extra-small img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+.avatar img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+/* .avatar-proj{
+    
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+} */
+.icon-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  color: #333333;
+  background: #dddddd;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+}
+.icon-img {
+  width: 100%;
+}
+.icon-badge-number {
+  top: -10px;
+  right: -10px;
+  width: 25px;
+  height: 25px;
+  background: red;
+  color: #dddddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.badge {
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+}
+.badge-parent {
+  position: relative;
+  width: 12rem;
+  height: 12rem;
+}
+.badge-small {
+  position: relative;
+  width: 7rem;
+  height: 7rem;
+}
+.badge-extra-small {
+  position: relative;
+  width: 5rem;
+  height: 5rem;
+}
+
+.avatar-badge {
+  position: absolute;
+  top: 6px;
+  right: 0px;
+  width: 22px;
+  height: 22px;
+  background: black;
+  color: #dddddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.avatar-badge-small {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2.1rem;
+  height: 2.1rem;
+  background: red;
+  color: #dddddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.avatar-badge-extra-small {
+  position: absolute;
+  top: 0;
+  right: -0.8rem;
+  width: 2rem;
+  height: 2rem;
+  background: red;
+  color: #dddddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}

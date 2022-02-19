@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+    <div class="display-layout">
+        <div class="snackbar">
+
+            <button class="snackbar-button button-container-snackbar" onclick="showSnackbar()">
+                Stacked snackbar
+            </button>
+
+            <div id="snackbar-message">
+                <p>Stacked Snackbar</p>
+                <button class="snack-exit" onclick="hideSnackbar()">
+                    <span>&#10060;</span>
+                </button>
+            </div>
+
+        </div>
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%2870%2C74%2C78%2C1%29&t=one-dark&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522snackbar%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522snackbar-button%2520button-container-snackbar%2522%2520onclick%253D%2522showSnackbar%28%29%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Stacked%2520snackbar%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520id%253D%2522snackbar-message%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EStacked%2520Snackbar%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522snack-exit%2522%2520onclick%253D%2522hideSnackbar%28%29%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%2526%252310060%253B%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+            style="width: 722px; height: 484px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
+        <div class="snackbar">
+
+            <button class="snackbar-button button-container-snackbar" onclick="showSnackbarLeft()">
+                Left snackbar
+            </button>
+
+            <div id="snackbar-message-left">
+                <p>Left Snackbar</p>
+                <button class="snack-exit" onclick="hideSnackbarLeft()">
+                    <span>&#10060;</span>
+                </button>
+            </div>
+
+        </div>
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%2870%2C74%2C78%2C1%29&t=one-dark&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522snackbar%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522snackbar-button%2520button-container-snackbar%2522%2520onclick%253D%2522showSnackbarLeft%28%29%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Left%2520snackbar%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520id%253D%2522snackbar-message-left%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ELeft%2520Snackbar%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522snack-exit%2522%2520onclick%253D%2522hideSnackbarLeft%28%29%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%2526%252310060%253B%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+            style="width: 722px; height: 484px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
+        <div class="snackbar">
+
+            <button class="snackbar-button button-container-snackbar" onclick="showSnackbarCenter()">
+                Centered snackbar
+            </button>
+
+            <div id="snackbar-message-center">
+                <p>Centered Snackbar</p>
+                <button class="snack-exit" onclick="hideSnackbarCenter()">
+                    <span>&#10060;</span>
+                </button>
+            </div>
+
+        </div>
+
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%2870%2C74%2C78%2C1%29&t=one-dark&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522snackbar%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522snackbar-button%2520button-container-snackbar%2522%2520onclick%253D%2522showSnackbarCenter%28%29%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Centered%2520snackbar%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520id%253D%2522snackbar-message-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ECentered%2520Snackbar%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522snack-exit%2522%2520onclick%253D%2522hideSnackbarCenter%28%29%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%2526%252310060%253B%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+            style="width: 722px; height: 484px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

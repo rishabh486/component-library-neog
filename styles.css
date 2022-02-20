@@ -6,6 +6,7 @@
   margin: 0;
 }
 .display-layout {
+  margin-top: 7.5rem;
   display: grid;
   grid-column: -3/-1;
 }
@@ -73,4 +74,7 @@
   grid-template-areas:
     " header header header"
     "sidebar card card ";
+}
+.button-documentation {
+  margin-top: 7.5rem;
 }

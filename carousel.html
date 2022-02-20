@@ -10,31 +10,44 @@
 </head>
 
 <body>
-    <div class="carousel">
-        <button class="carousel__button carousel__button--left is-hidden">
-            <img class="carousel-button" src="/Images/left-arrow.png" />
-        </button>
-        <div class="carousel__track-container">
-            <ul class="carousel__track">
-                <li class="carousel__slide current-slide">
-                    <img class="carousel__image" src="/Images/alesia-kazantceva-VWcPlbHglYc-unsplash.jpg" />
-                </li>
-                <li class="carousel__slide ">
-                    <img class="carousel__image " src="/Images/fuyao4real-Pc_zPGNReoc-unsplash.jpg" />
-                </li>
-                <li class="carousel__slide ">
-                    <img class="carousel__image " src="/Images/daniil-onischenko-uFSZldf9xeM-unsplash.jpg" />
-                </li>
-
-            </ul>
+    <div class="display-grid">
+        <div class="side-bar  side-bar-display">
+            <a href="./cards.html">Cards</a>
+            <a href="./avatar.html">Avatar</a>
+            <a href="./badges.html">Badges</a>
+            <a href="./buttons.html">Buttons</a>
+            <a href="./snackbar.html">Snackbar</a>
+            <a href="./alerts.html">Alert</a>
+            <a href="./inputs.html">Inputs</a>
+            <a href="./carousel.html">Carousel</a>
+            <a href="./responsiveimage.html">Responsive Image</a>
         </div>
-        <button class="carousel__button carousel__button--right">
-            <img class="carousel-button" src="/Images/right-arrow.png" />
-        </button>
-        <div class="carousel__nav">
-            <button class="carousel__indicator current-slide"></button>
-            <button class="carousel__indicator"></button>
-            <button class="carousel__indicator"></button>
+        <div class=" display-layout carousel">
+            <button class="carousel__button carousel__button--left is-hidden">
+                <img class="carousel-button" src="/Images/left-arrow.png" />
+            </button>
+            <div class="carousel__track-container">
+                <ul class="carousel__track">
+                    <li class="carousel__slide current-slide">
+                        <img class="carousel__image" src="/Images/alesia-kazantceva-VWcPlbHglYc-unsplash.jpg" />
+                    </li>
+                    <li class="carousel__slide ">
+                        <img class="carousel__image " src="/Images/fuyao4real-Pc_zPGNReoc-unsplash.jpg" />
+                    </li>
+                    <li class="carousel__slide ">
+                        <img class="carousel__image " src="/Images/daniil-onischenko-uFSZldf9xeM-unsplash.jpg" />
+                    </li>
+
+                </ul>
+            </div>
+            <button class="carousel__button carousel__button--right">
+                <img class="carousel-button" src="/Images/right-arrow.png" />
+            </button>
+            <div class="carousel__nav">
+                <button class="carousel__indicator current-slide"></button>
+                <button class="carousel__indicator"></button>
+                <button class="carousel__indicator"></button>
+            </div>
         </div>
     </div>
     <script src="./app.js"></script>

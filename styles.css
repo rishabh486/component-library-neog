@@ -1,8 +1,40 @@
+:root {
+  font-size: 62.5%;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
 .display-layout {
   display: grid;
+  grid-column: -3/-1;
 }
-
+.side-bar {
+  grid-area: sidebar;
+  position: fixed;
+}
 .display-sidebar {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+.component-library-layout {
+  display: grid;
+}
+.display-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    " sidebar button"
+    " sidebar button";
+}
+.button-grid {
+  grid-area: button;
+}
+.side-bar-display {
+  justify-content: space-evenly;
+}
+.side-bar-display a {
+  align-self: center;
+  font-size: 2.5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }

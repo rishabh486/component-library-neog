@@ -9,9 +9,18 @@
   display: grid;
   grid-column: -3/-1;
 }
+.card-component {
+  grid-area: card;
+  margin-top: 7rem;
+}
+.Header {
+  grid-area: header;
+  z-index: 1;
+}
 .side-bar {
   grid-area: sidebar;
   position: fixed;
+  margin-top: 7rem;
 }
 .display-sidebar {
   display: grid;
@@ -35,6 +44,33 @@
 }
 .side-bar-display a {
   align-self: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.Header {
+  background-color: #63edff;
+  display: flex;
+  justify-content: space-between;
+  height: 7rem;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+.Header h2 {
+  margin-right: 1rem;
+  font-size: 2rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.Header h1 {
+  margin-left: 1rem;
+  font-size: 3rem;
+}
+.documentation-layout {
+  display: grid;
+  grid-template-columns: repeat (3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-areas:
+    " header header header"
+    "sidebar card card ";
 }

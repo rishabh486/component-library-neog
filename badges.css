@@ -1,5 +1,9 @@
 :root {
   font-size: 62.5%;
+  --icon-button-color: lavenderblush;
+  --icon-badge-number-bg: lightblue;
+  --icon-badge-number: black;
+  --icon-button: #333333;
 }
 .badges-component {
   display: flex;
@@ -7,17 +11,17 @@
 }
 .notification {
   position: relative;
-  width: 5rem;
-  height: 5rem;
+  width: 50px;
+  height: 50px;
 }
 .icon-button {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 4rem;
-  height: 4rem;
-  color: #333333;
-  background: lavenderblush;
+  width: 40px;
+  height: 40px;
+  color: var(--icon-button);
+  background: var(--icon-button-color);
   border: none;
   outline: none;
   border-radius: 50%;
@@ -28,11 +32,11 @@
 .icon-badge-number {
   position: absolute;
   top: 0;
-  right: 0rem;
-  width: 1.5rem;
-  height: 1.5rem;
-  background: lightblue;
-  color: black;
+  right: 0;
+  width: 15px;
+  height: 15px;
+  background: var(--icon-badge-number-bg);
+  color: var(--icon-badge-number);
   display: flex;
   justify-content: center;
   align-items: center;

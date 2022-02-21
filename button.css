@@ -1,51 +1,51 @@
 :root {
   font-size: 62.5%;
   box-sizing: border-box;
+  --primary-color: #49a0eb;
+  --secondary-color: #63edff;
+  --danger-color: red;
+  --icon-badge-color: #209bab;
 }
 .button-container {
-  padding: 1rem 2rem;
-  margin: 1rem;
-  /* margin-left:-0.3rem; */
+  padding: 10px 20px;
+  margin: 10px;
   display: inline-block;
   font-weight: 800;
-  font-size: 1.8rem;
+  font-size: 18px;
   border: none;
-  border-radius: 1rem 1rem 1rem 1rem;
-
+  border-radius: 10px;
   color: black;
   font-family: "roboto";
 }
 .primary-button {
-  background-color: #49a0eb;
+  background-color: var(--primary-color);
 }
 .secondary-button {
-  background-color: #63edff;
+  background-color: var(--secondary-color);
   color: black;
   font-family: "roboto";
 }
 .danger-button {
-  background-color: red;
+  background-color: var(--danger-color);
   color: white;
   font-family: "roboto";
 }
 .toggle-button {
   position: relative;
-
   width: 16rem;
-  height: 5rem;
+  height: 50px;
   border: none;
-
-  background-color: #63edff;
+  background-color: var(--secondary-color);
   color: black;
   font-family: "roboto";
 }
 .icon-badge-number {
   position: absolute;
   top: 0;
-  right: -2.1rem;
-  width: 2.2rem;
-  height: 2.2rem;
-  background: #209bab;
+  right: -21px;
+  width: 22px;
+  height: 22px;
+  background: var(--icon-badge-color);
   color: black;
   display: flex;
   justify-content: center;
@@ -54,32 +54,32 @@
 }
 .toggle-badge {
   width: 16rem;
-  height: 5rem;
+  height: 50px;
   position: relative;
 }
 .hide {
   display: none;
 }
 .floating-action-button {
-  margin-top: 2rem;
-  width: 5rem;
-  height: 5rem;
+  margin-top: 20px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   border: none;
-  background-color: #49a0eb;
+  background-color: var(--primary-color);
   z-index: 1;
 }
 .floating-action-button-small {
-  margin-top: 2rem;
-  width: 4rem;
-  height: 4rem;
+  margin-top: 20px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   border: none;
-  background-color: #49a0eb;
+  background-color: var(--primary-color);
 }
 .floating-action-button:hover,
 .floating-action-button-small:hover {
-  background-color: #63edff;
+  background-color: var(--secondary-color);
 }
 .floating-action-img {
   width: 100%;

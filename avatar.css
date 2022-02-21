@@ -108,8 +108,8 @@
   position: absolute;
   top: 6px;
   right: 0px;
-  width: 22px;
-  height: 22px;
+  width: 2.2rem;
+  height: 2.2rem;
   background: var(--avatar-badge-color);
   color: var(--avatar-badge);
   display: flex;
@@ -127,8 +127,8 @@
   position: absolute;
   top: 0;
   right: 0;
-  width: 21px;
-  height: 21px;
+  width: 2.1rem;
+  height: 2.1rem;
   background: var(--icon-badge-color);
   color: var(--avatar-badge);
   display: flex;
@@ -140,8 +140,8 @@
   position: absolute;
   top: 0;
   right: -8px;
-  width: 20px;
-  height: 20px;
+  width: 2rem;
+  height: 2rem;
   background: var(--icon-badge-color);
   color: var(--avatar-badge);
   display: flex;

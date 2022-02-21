@@ -20,7 +20,6 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-
   margin-bottom: 0.8rem;
 }
 .top img {
@@ -42,7 +41,6 @@
 }
 .top-2 p {
   margin-left: 1rem;
-
   font-size: 2rem;
 }
 .top-3 img {
@@ -93,7 +91,6 @@
   flex-direction: row;
   width: 55rem;
   max-height: 31rem;
-
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 .card-data {
@@ -243,7 +240,6 @@
   font-size: 1.8rem;
   border: none;
   border-radius: 1rem;
-
   color: black;
   font-family: "roboto";
 }

@@ -1,5 +1,9 @@
 :root {
   font-size: 62.5%;
+  --bg-color: #209bab;
+  --success-bg-color: green;
+  --warning-bg-color: yellow;
+  --alert-color: pink;
 }
 .alert {
   width: 30rem;
@@ -10,19 +14,19 @@
   align-items: center;
   margin: 0.5rem;
 
-  background-color: #209bab;
+  background-color: var(--bg-color);
 }
 .alert img {
   width: 2.5rem;
-  padding: 0.5rem;
-  color: pink;
+  padding: 5px;
+  color: var(--alert-color);
 }
 .alert-msg {
   font-size: 2rem;
 }
 .success-info {
-  background-color: green;
+  background-color: var(--success-bg-color);
 }
 .warning-info {
-  background-color: yellow;
+  background-color: var(--warning-bg-color);
 }

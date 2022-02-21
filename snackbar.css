@@ -1,0 +1,85 @@
+:root {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  --primary-color: #63edff;
+  --text-color: #333;
+}
+#snackbar-message {
+  padding: 1rem;
+  visibility: hidden;
+  width: 30rem;
+  height: 3rem;
+  color: var(--text-color);
+  position: fixed;
+  z-index: 1;
+  left: 55rem;
+  bottom: 1.5rem;
+  font-size: 2rem;
+}
+.button-container {
+  padding: 1rem 2rem;
+  margin: 1rem;
+  background-color: var(--primary-color);
+  font-weight: 500;
+  font-size: 1.8rem;
+  border: none;
+  border-radius: 1rem;
+
+  color: var(--text-color);
+  font-family: "roboto";
+}
+.snack-exit {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  border: none;
+}
+
+.show-bar {
+  visibility: visible !important;
+}
+.hide-snack {
+  display: block;
+}
+
+#snackbar-message {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color);
+}
+#snackbar-message-left {
+  padding: 1rem;
+  visibility: hidden;
+  width: 30rem;
+  height: 3rem;
+
+  color: var(--text-color);
+  position: fixed;
+  z-index: 1;
+
+  bottom: 1.5rem;
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color);
+}
+#snackbar-message-center {
+  padding: 1rem;
+  visibility: hidden;
+  width: 30rem;
+  height: 3rem;
+
+  color: var(--text-color);
+  position: fixed;
+  z-index: 1;
+
+  bottom: 38rem;
+  left: 55rem;
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color);
+}

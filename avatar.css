@@ -3,6 +3,9 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  --icon-badge-color: red;
+  --avatar-badge-color: black;
+  --avatar-badge: #dddddd;
 }
 .avatar {
   width: 10rem;
@@ -35,8 +38,8 @@
   height: 100%;
 }
 .avatar-extra-small {
-  width: 5rem;
-  height: 5rem;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -51,12 +54,7 @@
   object-fit: cover;
   height: 100%;
 }
-/* .avatar-proj{
-    
-    display:flex;
-    justify-content:center;
-    flex-direction:column;
-} */
+
 .icon-button {
   position: relative;
   display: flex;
@@ -64,8 +62,7 @@
   align-items: center;
   width: 50px;
   height: 50px;
-  color: #333333;
-  background: #dddddd;
+  background: var(--avatar-badge);
   border: none;
   outline: none;
   border-radius: 50%;
@@ -78,8 +75,8 @@
   right: -10px;
   width: 25px;
   height: 25px;
-  background: red;
-  color: #dddddd;
+  background: var(--icon-badge-color);
+  color: var(--avatar-badge);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -113,8 +110,8 @@
   right: 0px;
   width: 22px;
   height: 22px;
-  background: black;
-  color: #dddddd;
+  background: var(--avatar-badge-color);
+  color: var(--avatar-badge);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -130,10 +127,10 @@
   position: absolute;
   top: 0;
   right: 0;
-  width: 2.1rem;
-  height: 2.1rem;
-  background: red;
-  color: #dddddd;
+  width: 21px;
+  height: 21px;
+  background: var(--icon-badge-color);
+  color: var(--avatar-badge);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -142,11 +139,11 @@
 .avatar-badge-extra-small {
   position: absolute;
   top: 0;
-  right: -0.8rem;
-  width: 2rem;
-  height: 2rem;
-  background: red;
-  color: #dddddd;
+  right: -8px;
+  width: 20px;
+  height: 20px;
+  background: var(--icon-badge-color);
+  color: var(--avatar-badge);
   display: flex;
   justify-content: center;
   align-items: center;

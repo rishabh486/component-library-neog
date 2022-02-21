@@ -1,0 +1,44 @@
+:root {
+  font-size: 62.5%;
+  --icon-button-color: lavenderblush;
+  --icon-badge-number-bg: lightblue;
+  --icon-badge-number: black;
+  --icon-button: #333333;
+}
+.badges-component {
+  display: flex;
+  justify-content: space-around;
+}
+.notification {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+.icon-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  color: var(--icon-button);
+  background: var(--icon-button-color);
+  border: none;
+  outline: none;
+  border-radius: 50%;
+}
+.icon-img {
+  width: 100%;
+}
+.icon-badge-number {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 15px;
+  height: 15px;
+  background: var(--icon-badge-number-bg);
+  color: var(--icon-badge-number);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
